@@ -27,7 +27,7 @@ Linked with GitHub repository
 Reference:
 
 
-Microsoft Docs – Add Users to Team Project solution 📎 Download Solution File
+Microsoft Docs – Add Users to Team Project solution 
 🔐 Q2: Apply branch policies so only the project administrator can access the master branch
 Objective: Secure production branch access.
 
@@ -51,7 +51,7 @@ Locked the main branch to freeze changes
 Configured inheritance and granular permission levels
 Reference:
 
-Branch Policies and Locks solution 📎 Download Solution File
+Branch Policies and Locks solution 
 🔃 Q4: Apply branch filters and path filters
 Objective: Optimize CI/CD by targeting only necessary changes.
 
@@ -68,7 +68,7 @@ trigger:
 GUI-based filter policies set via Branch Policies
 Reference:
 
-Pipeline Triggers Docs solution 📎 Download Solution File
+Pipeline Triggers Docs solution 
 🔁 Q5: Apply a pull request
 Objective: Enforce code review before merging.
 
@@ -80,7 +80,7 @@ Made changes and pushed to remote
 Created and merged a PR with admin approval
 Reference:
 
-Pull Requests in Azure DevOps solution 📎 Download Solution File
+Pull Requests in Azure DevOps solution 
 🚀 Q6: Apply triggers in build and release
 Objective: Automate CI/CD using triggers.
 
@@ -95,7 +95,7 @@ Classic UI triggers also applied via GUI
 Release pipeline configured for CD with successful build trigger
 Reference:
 
-CI/CD Triggers Guide solution 📎 Download Solution File 📎 Download Solution File
+CI/CD Triggers Guide solution 
 🛡 Q7: Apply gates to the pipeline
 Objective: Implement pre-deployment validations.
 
@@ -107,7 +107,7 @@ Enabled 2-minute delay and approval gates
 Ensured safe deployment flow
 Reference:
 
-Release Pipeline Gates solution 📎 Download Solution File
+Release Pipeline Gates solution 
 🚫 Q8: Apply security so contributors can only create pull requests, not merge
 Objective: Enforce pull-request-based merging only.
 
@@ -119,7 +119,7 @@ Enabled PR policies requiring minimum reviewers
 Contributors allowed to raise PRs, not merge
 Reference:
 
-Branch Security Docs solution 📎 Download Solution File
+Branch Security Docs solution 
 🔗 Q9: Use work items in pipelines
 Objective: Enable traceability between work and builds.
 
@@ -131,7 +131,7 @@ Linked work items directly from PR UI
 Enabled policy: "Check for linked work items"
 Reference:
 
-Work Items in Azure Pipelines solution 📎 Download Solution File
+Work Items in Azure Pipelines solution 
 🔄 Q10: Attach GitHub repo to Azure Boards
 Objective: Enable GitHub-Azure DevOps integration.
 
@@ -142,7 +142,7 @@ Connected GitHub repository to Azure DevOps project
 Enabled real-time board activity and linking PRs
 Reference:
 
-GitHub Integration with Azure Boards solution 📎 Download Solution File
+GitHub Integration with Azure Boards solution 
 📦 Tools Used
 Azure DevOps: Boards, Repos, Pipelines, Releases
 GitHub: Repo hosting & integration
