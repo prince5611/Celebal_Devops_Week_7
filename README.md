@@ -15,7 +15,10 @@ Task No.	Task Description	Completed
 🔍 Q1: Create a project with different user groups and implement group policies
 Objective: Establish role-based access using user groups.
 
+
+
 Summary:
+
 
 Created project in Azure DevOps
 Configured custom user groups like QA Team, New_Joiner
@@ -23,11 +26,13 @@ Applied permissions for Repos, Pipelines, Boards, and Artifacts
 Linked with GitHub repository
 Reference:
 
+
 Microsoft Docs – Add Users to Team Project solution 📎 Download Solution File
 🔐 Q2: Apply branch policies so only the project administrator can access the master branch
 Objective: Secure production branch access.
 
 Summary:
+
 
 Applied branch-level permissions
 Denied Contribute to Contributors group
@@ -37,6 +42,7 @@ Reference:
 Branch Permissions in Azure DevOps solution 📎 Download Solution File
 🔒 Q3: Apply branch security and locks
 Objective: Enforce branch immutability during deployment cycles.
+
 
 Summary:
 
@@ -48,6 +54,7 @@ Reference:
 Branch Policies and Locks solution 📎 Download Solution File
 🔃 Q4: Apply branch filters and path filters
 Objective: Optimize CI/CD by targeting only necessary changes.
+
 
 Summary:
 
@@ -65,6 +72,7 @@ Pipeline Triggers Docs solution 📎 Download Solution File
 🔁 Q5: Apply a pull request
 Objective: Enforce code review before merging.
 
+
 Summary:
 
 Created feature branch PULL_FROM_AD
@@ -75,6 +83,7 @@ Reference:
 Pull Requests in Azure DevOps solution 📎 Download Solution File
 🚀 Q6: Apply triggers in build and release
 Objective: Automate CI/CD using triggers.
+
 
 Summary:
 
@@ -92,6 +101,7 @@ Objective: Implement pre-deployment validations.
 
 Summary:
 
+
 Created release pipeline with DeployToTest stage
 Enabled 2-minute delay and approval gates
 Ensured safe deployment flow
@@ -102,6 +112,7 @@ Release Pipeline Gates solution 📎 Download Solution File
 Objective: Enforce pull-request-based merging only.
 
 Summary:
+
 
 Denied direct Contribute access to main
 Enabled PR policies requiring minimum reviewers
@@ -114,6 +125,7 @@ Objective: Enable traceability between work and builds.
 
 Summary:
 
+
 Used Fixes #<WorkItemID> in commit messages
 Linked work items directly from PR UI
 Enabled policy: "Check for linked work items"
@@ -124,6 +136,7 @@ Work Items in Azure Pipelines solution 📎 Download Solution File
 Objective: Enable GitHub-Azure DevOps integration.
 
 Summary:
+
 
 Connected GitHub repository to Azure DevOps project
 Enabled real-time board activity and linking PRs
